@@ -33,7 +33,7 @@ app.use(express.json());
 app.use(morgan("dev"));
 
 // API Routes
-app.use("/api/auth", authRoutes);
+app.use("/api/auth", authRoutes); 
 app.use("/api/files", fileRoutes);
 app.use("/api/folders", folderRoutes);
 app.use("/api/search", searchRoutes);
